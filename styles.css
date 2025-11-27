@@ -1,0 +1,33 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 100px 500px 100px;
+  gap: 1rem;
+}
+header {
+  background-color: blue;
+}
+footer {
+  background-color: burlywood;
+}
+.first-section {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.second-section {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+main {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
